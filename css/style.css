@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    color: rgb(87, 29, 29)
+    
+}
+h1{
+    font-size: 2.0em;
+   
+}
+h2{
+    font-size: 1.7m;
+}
+
+
+
+ .navegation{
+    background-color: rgb(25, 109, 134);
+ }
+
+ .navegation img{
+    width: 80;
+ }
+
+ .navegation a{
+    color: black;
+}
+.bg-brown{
+    background-color:rgb(255, 223, 184);
+    
+}
+nav{
+    background-color: rgb(25, 109, 134);
+}
+nav{
+    padding: 6px 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+
+ .navegation{
+    padding: 6x 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .navegation ul{
+    list-style: none;
+    display: inline-block;
+    display: flex;
+ }
+
+ .navegation ul li{
+    display: inline-block;
+    margin-right: 10px;
+ }
+
+ .navegation ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+
+footer svg{
+    fill: black;
+    margin-right: 10px;
+}
+
+
+footer{
+    padding: 6px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 63, 97);
+    }
+
+
+
+
+
+div ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+form{
+    text-decoration: none;
+    color: white;
+}
+div ul{
+    list-style: none;
+}
+
+header img{
+    width: 100%;
+}
+
+.header-indez img{
+    width: 100%;
+}
+
+.text-dark{
+    color: black;
+}
+.text-center{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.box-top{
+    padding: 4px 0;
+    text-align: center;
+    color: rgb(77, 17, 17);
+    font-size: .9em;
+}
+
+.products-home{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products-home figure{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-home figure figcaption{
+    color: rgb(90, 22, 22);
+    font-size: 1.4em;
+}
+.products-home figure button{
+    border: none;
+    background-color: rgb(90, 22, 22);
+    padding: 6px;
+    color: white;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.products-home figure button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+.filters{
+    padding: 0 20px 30px 30px;
+    
+   
+    
+}
+
+.filters a{
+    color: rgb(90, 23, 23);
+    font-size: .9em;
+    text-decoration: none;
+    margin-bottom: 4px;
+    
+    
+}
+.filters a:hover{
+    color: black;
+}
+.filters span{
+    display: block;
+    color: black;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: .8em;
+    font-weight: 300;
+    
+  
+}
+
+.filters label{
+    font-size: .8em;
+    font-weight: 300;
+    color: rgb(90, 22, 22);
+    
+   
+}
+.filters select{
+    color: black(90, 27, 27);
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 1em;
+    background-color: bisque;
+}
+.filters li{
+    padding-left: 10px;
+    list-style: none;
+    
+}
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+    background-color: bisque;
+}
+.actions button{
+    margin-left: 12px;
+    background-color: rgb(90, 21, 21);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.actions button:hover{
+    background-color: black;
+}
+.actions input{
+    padding: 6px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(211, 206, 206);
+    
+}
+.tienda{
+    display: grid;
+    grid-template-columns:20% repeat(2,1fr);
+    grid-template-rows: auto repeat(3,300px);
+    grid-template-areas: 
+    "actions actions actions"
+    "filters prod1 prod1"
+    "filters prod2 prod3"
+    "filters prod2 prod4";
+    gap: 5px;
+    color: black;
+    padding: 20px;
+    
+    
+}
+
+.tienda .actions{
+    padding: 0 30px;
+    grid-area: actions;
+    background-color: bisque;
+}
+.tienda .filters{
+    grid-area: filters;
+    
+}
+.tienda .prod1{
+    grid-area: prod1;
+    display: flex;
+    flex-direction: row;
+    padding: 0 80px;
+    background-color: bisque;
+    justify-content: center;
+    
+  
+    
+}
+.tienda .prod1 p{
+   
+    width: 60%;
+    margin-left: 20px;
+    
+}
+.tienda .prod2{
+    grid-area: prod2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+    background-color: bisque;
+}
+.tienda .prod3{
+    grid-area: prod3;
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+
+}
+.tienda .prod4{
+    grid-area: prod4;
+    display: flex;
+    background-color: bisque;
+  justify-content: center;
+}
+
+.tienda section{
+    border-radius: 10px;
+
+}
+
+.class{
+    margin: 0;
+    padding: 0;
+    background-color:bisque;
+    box-sizing: border-box;
+}
+
+.class{
+    width: 100%;
+    min-height: 100%;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 6px 8px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.class button{
+    margin-left: 12px;
+    background-color: rgb(90, 21, 21);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+   }
+
+   .class button:hover{
+    background-color: black;
+}
+nav .class{
+    background-color: rgb(25, 109, 134);
+    
+}
+
+.about{
+    padding: 10px 30px;
+}
+
+.about-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-box-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.about-header-left{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.about-text-md{
+    font-size: 1.1em;
+}
+
+.about-link-left{
+    display: block;
+    text-align: left;
+    color: rgb(90, 27, 27);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.about-list-black{
+    color: black;
+    list-style: 80px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+nav ul li a:active{
+    color: black;
+}
+@media(width < 1024px){
+    .products-home figure{
+        width: 48%;
+    }
+}
+
+@media(width < 768px){
+    nav{
+        flex-direction: column;
+    }
+    .products-home figure{
+        width: 100%;
+    }
+    .products-home figure bottom{
+        width: 100%;
+    }
+    main h1{
+        font-weight: 300;
+    }
+    main h2{
+        font-weight: 300;
+        margin-top: 45px;
+    }
+    footer{
+        flex-direction: column;
+
+    }
+    footer div:nth-child(3){
+        margin-top: 10px;
+
+    }
+    footer div:first-child{
+        margin-top: 6px;
+    }
+
+    .about-box,
+    .about-box-reverse{
+        flex-direction: column;
+    }
+    .tienda{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,auto);
+        grid-template-areas: 
+        "actions"
+        "filters"
+        "prod1"
+        "prod2"
+        "prod3"
+        "prod4";
+        gap: 10px;
+    }
+
+    .tienda .actions{
+        justify-content: center;
+    }
+
+    .tienda .filters span, .tienda .filters ul, .tienda .filters label, .tienda .filters input[type="checkbox"]{
+        display: none;
+    }
+    .tienda select{
+        background-color: white;
+        width: 100%;
+        padding: 6px;
+    }
+    .tienda .prod1{
+        flex-direction: column;
+
+    }
+    .tienda .prod1 p{
+        width: 100%;
+    }
+
+    .tienda .prod1, .tienda .prod2{
+        padding: 0 10px;
+    }
+
+
+}
