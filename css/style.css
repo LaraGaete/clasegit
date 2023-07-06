@@ -434,6 +434,7 @@ nav ul li a:hover{
 nav ul li a:active{
     color: black;
 }
+
 @media(width < 1024px){
     .products-home figure{
         width: 48%;
