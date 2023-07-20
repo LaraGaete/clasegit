@@ -1,7 +1,3 @@
-*.log
+node_modules/
+*.ia
 *.map
-*.vscode
-*.ai
-node_module/
-fuentes/
-passwords.txt
