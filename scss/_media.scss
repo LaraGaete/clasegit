@@ -1,0 +1,78 @@
+@media(width < 1024px){
+    .products-home figure{
+        width: 48%;
+    }
+}
+
+@media(width < 768px){
+    nav{
+        flex-direction: column;
+    }
+    .products-home figure{
+        width: 100%;
+    }
+    .products-home figure bottom{
+        width: 100%;
+    }
+    main h1{
+        font-weight: 300;
+    }
+    main h2{
+        font-weight: 300;
+        margin-top: 45px;
+    }
+    footer{
+        flex-direction: column;
+
+    }
+    footer div:nth-child(3){
+        margin-top: 10px;
+
+    }
+    footer div:first-child{
+        margin-top: 6px;
+    }
+
+    .about-box,
+    .about-box-reverse{
+        flex-direction: column;
+    }
+    .tienda{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,auto);
+        grid-template-areas: 
+        "actions"
+        "filters"
+        "prod1"
+        "prod2"
+        "prod3"
+        "prod4";
+        gap: 10px;
+    }
+
+    .tienda .actions{
+        justify-content: center;
+    }
+
+    .tienda .filters span, .tienda .filters ul, .tienda .filters label, .tienda .filters input[type="checkbox"]{
+        display: none;
+    }
+    .tienda select{
+        background-color: white;
+        width: 100%;
+        padding: 6px;
+    }
+    .tienda .prod1{
+        flex-direction: column;
+
+    }
+    .tienda .prod1 p{
+        width: 100%;
+    }
+
+    .tienda .prod1, .tienda .prod2{
+        padding: 0 10px;
+    }
+
+
+}

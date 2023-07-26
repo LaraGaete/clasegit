@@ -9,100 +9,10 @@
 
 
 
-h1{
-    color: rgb(87, 29, 29)
-    
-}
-h1{
-    font-size: 2.0em;
-   
-}
-h2{
-    font-size: 1.7m;
-}
 
 
 
- .navegation{
-    background-color: rgb(25, 109, 134);
- }
 
- .navegation img{
-    width: 80;
- }
-
- .navegation a{
-    color: black;
-}
-.bg-brown{
-    background-color:rgb(255, 223, 184);
-    
-}
-nav{
-    background-color: rgb(25, 109, 134);
-}
-nav{
-    padding: 6px 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-}
-nav ul{
-    list-style: none;
-    display: inline-block;
-    display: flex;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 10px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    }
-
- .navegation{
-    padding: 6x 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
- }
-
- .navegation ul{
-    list-style: none;
-    display: inline-block;
-    display: flex;
- }
-
- .navegation ul li{
-    display: inline-block;
-    margin-right: 10px;
- }
-
- .navegation ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
- }
-
-footer svg{
-    fill: black;
-    margin-right: 10px;
-}
-
-
-footer{
-    padding: 6px 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(21, 63, 97);
-    }
 
 
 
@@ -151,37 +61,13 @@ header img{
     font-size: .9em;
 }
 
-.products-home{
-    padding: 20px 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-.products-home figure{
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.products-home figure figcaption{
-    color: rgb(90, 22, 22);
-    font-size: 1.4em;
-}
-.products-home figure button{
-    border: none;
-    background-color: rgb(90, 22, 22);
-    padding: 6px;
-    color: white;
-    border-radius: 4px;
-    margin: 10px 0;
-}
-.products-home figure button:hover{
-    cursor: pointer;
-    background-color: black;
-}
+
+
+
+
+
 
 .filters{
     padding: 0 20px 30px 30px;
@@ -232,6 +118,11 @@ header img{
     list-style: none;
     
 }
+
+
+
+
+
 .actions{
     display: flex;
     justify-content: flex-end;
@@ -258,6 +149,10 @@ header img{
     background-color: rgb(211, 206, 206);
     
 }
+
+
+
+
 .tienda{
     display: grid;
     grid-template-columns:20% repeat(2,1fr);
@@ -383,6 +278,12 @@ nav .class{
     
 }
 
+
+
+
+
+
+
 .about{
     padding: 10px 30px;
 }
@@ -434,6 +335,10 @@ nav ul li a:hover{
 nav ul li a:active{
     color: black;
 }
+
+
+
+
 
 @media(width < 1024px){
     .products-home figure{

@@ -1,0 +1,53 @@
+.about{
+    padding: 10px 30px;
+    &-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    &-header{
+        &-left{
+            text-align: left;
+            margin: 10px 0;
+        }
+    }
+    &-text{
+        &-md{
+            font-size: 1.1em;
+        }
+    }
+    &-link{
+        &-left{
+            display: block;
+            text-align: left;
+            color: $mainColor;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    }
+    &-list{
+        &-black{
+            color: $KeyColor;
+            list-style: 80px;
+            font-size: 1.2em;
+            line-height: 1.4em;
+            font-weight: $textLight;
+            margin: 10px 0;
+        }
+    }
+}
+
+nav ul li a:hover{
+    color: $KeyColor;
+
+}
+
+nav ul li a:active{
+    color: $KeyColor;
+}

@@ -1,0 +1,72 @@
+.filters{
+    padding: 0 20px 30px 30px;
+    a{
+        color: $mainColor;
+        font-size: .9em;
+        text-decoration: none;
+        margin-bottom: 4px;
+        &:hover{
+            color: $KeyColor;
+        }
+    }
+}
+
+.filters span{
+    display: block;
+    color: $KeyColor;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: .8em;
+    font-weight: $textLight;
+    
+  
+}
+
+.filters label{
+    font-size: .8em;
+    font-weight: $textLight;
+    color: $mainColor;
+    
+   
+}
+.filters select{
+    color: $KeyColor;
+    border: none;
+    background-color: $White;
+    margin-bottom: 10px;
+    font-size: 1em;
+    background-color: $bisqueColor;
+}
+.filters li{
+    padding-left: 10px;
+    list-style: none;
+    
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+    background-color: $bisqueColor;
+    button{
+        margin-left: 12px;
+        background-color: $mainColor;
+        color: $White;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        &:hover{
+            background-color: $KeyColor;
+        }
+        
+    }
+}
+  
+.actions input{
+    padding: 6px;
+    border-radius: 3px;
+    border: none;
+    background-color: $White;
+    
+}
