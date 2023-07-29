@@ -1,3 +1,4 @@
+
 .products-home{
     padding: 20px 30px;
     display: flex;
@@ -5,9 +6,9 @@
     justify-content: space-between;
     figure{
         margin-bottom: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
         justify-content: center;
         figcaption{
             color: $mainColor;
@@ -16,15 +17,16 @@
     }
 }
 
+
 .products-home figure button{
     border: none;
-    background-color: rgb(90, 22, 22);
+    background-color: $mainColor;
     padding: 6px;
-    color: white;
+    color: $White;
     border-radius: 4px;
     margin: 10px 0;
     &:hover{
         cursor: pointer;
-        background-color: $KeyColor;   
+         background-color: $KeyColor;
     }
 }

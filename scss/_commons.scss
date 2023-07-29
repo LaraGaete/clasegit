@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap');
 *{
     font-family: $mainFont;
-   
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-
 
 
 h1{
@@ -11,33 +12,33 @@ h1{
     
 }
 h1{
-    font-size: $textLg;
+    font-size: 2.0em;
    
 }
 h2{
-    font-size: $textLg;
+    font-size: 1.7m;
 }
-.navegation{
+
+
+
+ .navegation{
     background-color: $navColor;
     img{
         width: 80;
-        a{
-            color: $KeyColor;
-        }
+    }
+    a{
+        color: $KeyColor;
     }
  }
- .bg-brown{
+
+
+.bg-brown{
     background-color:$plColor;
     
 }
-
 nav{
     background-color: $navColor;
 }
-
-
-
-
 nav{
     padding: 6px 30px;
     width: 100%;
@@ -47,41 +48,19 @@ nav{
     align-items: center;
     ul{
         list-style: none;
+    display: inline-block;
+    display: flex;
+    li{
         display: inline-block;
-        display: flex;
-        li{
-            display: inline-block;
-            margin-right: 10px;
-            a{
-                text-decoration: none;
-                color: $White;
-            }
+        margin-right: 10px;
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
         }
+    }
     }
 
 }
-.navegation{
-    padding: 6x 30px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    ul{
-        list-style: none;
-        display: inline-block;
-        display: flex;
-        li{
-            display: inline-block;
-            margin-right: 10px;
-            a{
-                text-decoration: none;
-                color: $White;
-            }
-        }
-    }
- }
-
 
 footer{
     padding: 6px 30px;
@@ -89,30 +68,19 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: $navColor;
-     svg{
+    background-color: rgb(21, 63, 97);
+    svg{
         fill: $KeyColor;
-        margin-right: 10px;
+         margin-right: 10px;
     }
     }
-
-div{
-        ul{
-            li{
-                a{
-                    text-decoration: none;
-                    color: $White;
-                }
-            }
-        }
-}
 
 div{
     ul{
         li{
             a{
                 text-decoration: none;
-    color: $White;
+                color: $White;
             }
         }
     }
@@ -123,10 +91,8 @@ form{
     text-decoration: none;
     color: $White;
 }
-div{
-    ul{
-        list-style: none;
-    }
+div ul{
+    list-style: none;
 }
 
 header img{

@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap");
+.icon-lang {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../img/iconos/ingles.png);
+}
+
+.transform {
+  transform: translate(20px);
+}
+
 * {
   font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -13,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.7m;
 }
 
 .navegation {
@@ -22,7 +37,7 @@ h2 {
 .navegation img {
   width: 80;
 }
-.navegation img a {
+.navegation a {
   color: rgb(18, 17, 17);
 }
 
@@ -56,44 +71,17 @@ nav ul li a {
   color: rgb(255, 255, 255);
 }
 
-.navegation {
-  padding: 6x 30px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.navegation ul {
-  list-style: none;
-  display: inline-block;
-  display: flex;
-}
-.navegation ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-.navegation ul li a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
 footer {
   padding: 6px 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(25, 109, 134);
+  background-color: rgb(21, 63, 97);
 }
 footer svg {
   fill: rgb(18, 17, 17);
   margin-right: 10px;
-}
-
-div ul li a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
 }
 
 div ul li a {
@@ -160,9 +148,9 @@ header img {
 
 .products-home figure button {
   border: none;
-  background-color: rgb(90, 22, 22);
+  background-color: rgb(87, 29, 29);
   padding: 6px;
-  color: white;
+  color: rgb(255, 255, 255);
   border-radius: 4px;
   margin: 10px 0;
 }
@@ -183,7 +171,6 @@ header img {
 .filters a:hover {
   color: rgb(18, 17, 17);
 }
-
 .filters span {
   display: block;
   color: rgb(18, 17, 17);
@@ -192,22 +179,19 @@ header img {
   font-size: 0.8em;
   font-weight: 300;
 }
-
 .filters label {
   font-size: 0.8em;
   font-weight: 300;
   color: rgb(87, 29, 29);
 }
-
 .filters select {
   color: rgb(18, 17, 17);
   border: none;
   background-color: rgb(255, 255, 255);
   margin-bottom: 10px;
   font-size: 1em;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
 }
-
 .filters li {
   padding-left: 10px;
   list-style: none;
@@ -218,7 +202,7 @@ header img {
   justify-content: flex-end;
   align-items: center;
   margin: 10px 0;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
 }
 .actions button {
   margin-left: 12px;
@@ -228,10 +212,9 @@ header img {
   border: none;
   border-radius: 5px;
 }
-.actions button:hover {
+.actions:hover {
   background-color: rgb(18, 17, 17);
 }
-
 .actions input {
   padding: 6px;
   border-radius: 3px;
@@ -251,7 +234,7 @@ header img {
 .tienda .actions {
   padding: 0 30px;
   grid-area: actions;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
 }
 .tienda .filters {
   grid-area: filters;
@@ -261,7 +244,7 @@ header img {
   display: flex;
   flex-direction: row;
   padding: 0 80px;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
   justify-content: center;
 }
 .tienda .prod1 p {
@@ -275,21 +258,20 @@ header img {
   justify-content: center;
   align-items: center;
   padding: 0 80px;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
 }
 .tienda .prod3 {
   grid-area: prod3;
   display: flex;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
   justify-content: center;
 }
 .tienda .prod4 {
   grid-area: prod4;
   display: flex;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
   justify-content: center;
 }
-
 .tienda section {
   border-radius: 10px;
 }
@@ -297,11 +279,8 @@ header img {
 .class {
   margin: 0;
   padding: 0;
-  background-color: bisque;
+  background-color: rgb(255, 223, 184);
   box-sizing: border-box;
-}
-
-.class {
   width: 100%;
   min-height: 100%;
   padding: 5px;
@@ -315,7 +294,7 @@ header img {
 .search-bar {
   width: 100%;
   max-width: 700px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   border-radius: 60px;
@@ -329,13 +308,13 @@ header img {
   outline: none;
   padding: 6px 8px;
   font-size: 20px;
-  color: antiquewhite;
+  color: rgb(255, 223, 184);
 }
 
 .class button {
   margin-left: 12px;
-  background-color: rgb(90, 21, 21);
-  color: white;
+  background-color: rgb(87, 29, 29);
+  color: rgb(255, 255, 255);
   padding: 8px;
   border: none;
   border-radius: 5px;

@@ -13,7 +13,7 @@
     .actions{
         padding: 0 30px;
         grid-area: actions;
-        background-color: $bisqueColor;
+        background-color: $plColor;
     }
     .filters{
         grid-area: filters;
@@ -23,11 +23,11 @@
         display: flex;
         flex-direction: row;
         padding: 0 80px;
-        background-color: bisque;
+        background-color: $plColor;
         justify-content: center;
         p{
             width: 60%;
-    margin-left: 20px;
+            margin-left: 20px;
         }
     }
     .prod2{
@@ -37,35 +37,32 @@
         justify-content: center;
         align-items: center;
         padding: 0 80px;
-        background-color: $bisqueColor;
+        background-color: $plColor;
     }
     .prod3{
         grid-area: prod3;
-        display: flex;
-        background-color: bisque;
-        justify-content: center;
+         display: flex;
+         background-color: $plColor;
+         justify-content: center;
     }
     .prod4{
         grid-area: prod4;
         display: flex;
-        background-color: $bisqueColor;
+        background-color: $plColor;
       justify-content: center;
     }
-}
-
-.tienda section{
-    border-radius: 10px;
-
+    section{
+        border-radius: 10px;
+    }
+    
+    
 }
 
 .class{
     margin: 0;
     padding: 0;
-    background-color:$bisqueColor;
+    background-color:$plColor;
     box-sizing: border-box;
-}
-
-.class{
     width: 100%;
     min-height: 100%;
     padding: 5px;
@@ -74,13 +71,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
+
 
 .search-bar{
     width: 100%;
     max-width: 700px;
-    background-color: white;
+    background-color: $White;
     display: flex;
     align-items: center;
     border-radius: 60px;
@@ -93,21 +90,21 @@
         outline: none;
         padding: 6px 8px;
         font-size: 20px;
-        color: antiquewhite;
+        color: $plColor;
     }
 }
 
 .class button{
     margin-left: 12px;
-    background-color: rgb(90, 21, 21);
-    color: white;
+    background-color: $mainColor;
+    color: $White;
     padding: 8px;
     border: none;
     border-radius: 5px;
     &:hover{
         background-color: $KeyColor;
     }
-   }
+}
 
 nav .class{
     background-color: $navColor;
