@@ -38,7 +38,7 @@
         flex-direction: column;
     }
     .tienda{
-        grid-template-columns: 1fr;
+        grid-template-columns: 7fr;
         grid-template-rows: repeat(6,auto);
         grid-template-areas: 
         "actions"
@@ -73,6 +73,7 @@
     .tienda .prod1, .tienda .prod2{
         padding: 0 10px;
     }
+   
 
 
 }
