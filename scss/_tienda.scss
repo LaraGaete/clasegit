@@ -1,6 +1,6 @@
 .tienda{
     display: grid;
-    grid-template-columns:20% repeat(2,1fr);
+    grid-template-columns:10% repeat(2,1fr);
     grid-template-rows: auto repeat(3,300px);
     grid-template-areas: 
     "actions actions actions"
@@ -19,6 +19,7 @@
         grid-area: filters;
     }
     .prod1{
+        
         grid-area: prod1;
         display: flex;
         flex-direction: row;
@@ -40,12 +41,14 @@
         background-color: $plColor;
     }
     .prod3{
+        
         grid-area: prod3;
          display: flex;
          background-color: $plColor;
          justify-content: center;
     }
     .prod4{
+        
         grid-area: prod4;
         display: flex;
         background-color: $plColor;

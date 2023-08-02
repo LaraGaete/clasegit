@@ -224,7 +224,7 @@ header img {
 
 .tienda {
   display: grid;
-  grid-template-columns: 20% repeat(2, 1fr);
+  grid-template-columns: 10% repeat(2, 1fr);
   grid-template-rows: auto repeat(3, 300px);
   grid-template-areas: "actions actions actions" "filters prod1 prod1" "filters prod2 prod3" "filters prod2 prod4";
   gap: 5px;
@@ -377,7 +377,7 @@ nav ul li a:active {
     width: 48%;
   }
 }
-@media (width < 768px) {
+@media (width < 700px) {
   nav {
     flex-direction: column;
   }
@@ -408,7 +408,7 @@ nav ul li a:active {
     flex-direction: column;
   }
   .tienda {
-    grid-template-columns: 1fr;
+    grid-template-columns: 5fr;
     grid-template-rows: repeat(6, auto);
     grid-template-areas: "actions" "filters" "prod1" "prod2" "prod3" "prod4";
     gap: 10px;
@@ -434,6 +434,10 @@ nav ul li a:active {
     padding: 0 10px;
   }
 }
+img {
+  max-width: 100%;
+}
+
 .body {
   background-color: bisque;
   margin: 0;

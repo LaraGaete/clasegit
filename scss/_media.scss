@@ -4,7 +4,7 @@
     }
 }
 
-@media(width < 768px){
+@media(width < 700px){
     nav{
         flex-direction: column;
     }
@@ -38,7 +38,7 @@
         flex-direction: column;
     }
     .tienda{
-        grid-template-columns: 7fr;
+        grid-template-columns: 5fr;
         grid-template-rows: repeat(6,auto);
         grid-template-areas: 
         "actions"
@@ -75,5 +75,11 @@
     }
    
 
-
 }
+
+img{
+    max-width: 100%;
+}
+
+
+    
