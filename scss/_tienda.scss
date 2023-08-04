@@ -43,16 +43,12 @@
     .prod3{
         
         grid-area: prod3;
-         display: flex;
-         background-color: $plColor;
-         justify-content: center;
+         @include grid;
     }
     .prod4{
         
         grid-area: prod4;
-        display: flex;
-        background-color: $plColor;
-      justify-content: center;
+        @include grid;
     }
     section{
         border-radius: 10px;

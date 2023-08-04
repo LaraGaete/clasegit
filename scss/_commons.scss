@@ -95,12 +95,13 @@ div ul{
     list-style: none;
 }
 
+
 header img{
-    width: 100%;
+    @include header;
 }
 
 .header-indez img{
-    width: 100%;
+    @include header;
 }
 
 .text-dark{

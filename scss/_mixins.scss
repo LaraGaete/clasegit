@@ -13,3 +13,12 @@
     transform: translate(20px);
 }
 
+@mixin header{
+    width: 100%;
+}
+
+@mixin grid{
+    display: flex;
+        background-color: $plColor;
+      justify-content: center;
+}
