@@ -30,7 +30,9 @@ SISTEMA DE CONTROL DE VERSIONES
 github pages  Github 
 
 LINKS 
-
+https://laragaete.github.io/clasegit/
+https://github.com/LaraGaete/clasegit
+codificadorfinal.netlify.app 
 
 
 
