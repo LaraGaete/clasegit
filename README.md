@@ -32,7 +32,8 @@ github pages  Github
 LINKS 
 https://laragaete.github.io/clasegit/
 https://github.com/LaraGaete/clasegit
-codificadorfinal.netlify.app 
+
+codificadorfinal.netlify.app
 
 
 
